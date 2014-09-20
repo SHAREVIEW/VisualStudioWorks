@@ -5,6 +5,13 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaturnDirectoryCopy", "SaturnDirectoryCopy\SaturnDirectoryCopy.csproj", "{9AA33402-FB27-447F-A32C-C901E4628CB2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{399014B6-4D62-411A-9F51-3336F5610BC0}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\SaturnDirectoryCopy-C#.doc = Documents\SaturnDirectoryCopy-C#.doc
+		Documents\SaturnDirectoryCopy-C#.ppt = Documents\SaturnDirectoryCopy-C#.ppt
+		Documents\SaturnDirectoryCopy.jpg = Documents\SaturnDirectoryCopy.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
