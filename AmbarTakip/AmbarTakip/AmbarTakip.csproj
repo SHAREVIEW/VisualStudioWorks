@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{27913AD8-7B7B-4562-A8CE-B47EB4FFCFD3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AmbarTakip</RootNamespace>
+    <AssemblyName>AmbarTakip</AssemblyName>
+    <ApplicationIcon>Alienaqua Graveur.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Hakkında.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hakkında.Designer.cs">
+      <DependentUpon>Hakkında.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AmbarTakipDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AmbarTakipDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnaPencere.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaPencere.Designer.cs">
+      <DependentUpon>AnaPencere.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MalzemeYonetim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MalzemeYonetim.Designer.cs">
+      <DependentUpon>MalzemeYonetim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPSKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CPSKayit.Designer.cs">
+      <DependentUpon>CPSKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MalzemeArama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MalzemeArama.Designer.cs">
+      <DependentUpon>MalzemeArama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MalzemeGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MalzemeGiris.Designer.cs">
+      <DependentUpon>MalzemeGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MalzemeIzleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MalzemeIzleme.Designer.cs">
+      <DependentUpon>MalzemeIzleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Hakkında.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Hakkında.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnaPencere.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AnaPencere.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MalzemeYonetim.resx">
+      <DependentUpon>MalzemeYonetim.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPSKayit.resx">
+      <DependentUpon>CPSKayit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MalzemeArama.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MalzemeArama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MalzemeGiris.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MalzemeGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MalzemeIzleme.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MalzemeIzleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResimGoster.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ResimGoster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UniteEkipman.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UniteEkipman.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="AmbarTakipDataSet1.xsc">
+      <DependentUpon>AmbarTakipDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="AmbarTakipDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AmbarTakipDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AmbarTakipDataSet1.xss">
+      <DependentUpon>AmbarTakipDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Resim.cs" />
+    <Compile Include="ResimGoster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResimGoster.Designer.cs">
+      <DependentUpon>ResimGoster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sabitler.cs" />
+    <Compile Include="UniteEkipman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UniteEkipman.Designer.cs">
+      <DependentUpon>UniteEkipman.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Alienaqua Graveur.ico" />
+    <Content Include="AmbarTakip.mdb">
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
