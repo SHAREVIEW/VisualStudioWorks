@@ -1,3 +1,3 @@
-Üniversite, askeriye ve boş zamanlarımda geliştirdiğim eski projeler bu repository'de yer almaktadır.
+Üniversite, askeriye ve boş zamanlarımda Visual Studio ile geliştirdiğim projeler bu repository'de yer almaktadır.
 oldworks
 ========
