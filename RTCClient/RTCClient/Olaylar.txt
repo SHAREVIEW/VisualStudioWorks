@@ -1,0 +1,16 @@
+
+IM
+	local oturum açýldýðýnda-> progress, progress, connected(oturumu sakla) veya disconnected(mesaj gönderilemedi, kullanýcý offline)
+	remote oturum açýldýðýnda-> incoming, answer, connected, mesaj geldi
+	
+	local oturum sonlandýðýnda -> disconnected(oturumu serbest býrak)
+	local oturum sonlandýðýnda -> disconnected(oturumu serbest býrak)
+	
+MEDIA
+
+	local oturum açýldýðýnda-> progress, media, started, connected
+	remote oturum açýldýðýnda-> incoming, answer, media, started, receive, connected
+	
+	local oturum sonlandýðýnda -> disconnected
+	remote oturum sonlandýðýnda -> media, stopped, send
+	
