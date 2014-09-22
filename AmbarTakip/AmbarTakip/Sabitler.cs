@@ -20,7 +20,7 @@ namespace AmbarTakip
         public static String hataKopyalama = "Seçilen resim dosyasý gösterilemiyor. Lütfen resmi" + resimKlasoru + "adresine kopyalayýn.";
         public static String hataKayitEkleme = "Girilen bilgiler veritabanýna eklenemedi. Lütfen sistem yöneticiniz ile görüþün.";
         public static String hataYTNO = "Lütfen 10 haneli YTXXXXXXXX bilgisini giriniz.";
-        public static String hataBaglanti = "Veritabaný ile baðlantý kurulamadý. Lütfen sistem yöneticiniz ile görüþün.";
+        public static String hataBaglanti = "Veritabaný ile baðlantý kurulamadý. Lütfen sistem yöneticiniz ile görüþün.\r\nHata: {0}";
 
         public static String hataUnite = "Lütfen Ünite girin.";
         public static String hataUniteEkipman = "Lütfen Ünite seçin ve Ekipman adý girin.";
