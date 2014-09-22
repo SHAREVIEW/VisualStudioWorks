@@ -138,6 +138,7 @@
     <None Include="images\tahta2.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\zemin2.jpg" />
     <Content Include="satranc.ico" />
   </ItemGroup>
   <ItemGroup>
