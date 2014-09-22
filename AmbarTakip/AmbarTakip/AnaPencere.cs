@@ -28,9 +28,9 @@ namespace AmbarTakip
                 // TODO: This line of code loads data into the 'dsAmbar.CPS' table. You can move, or remove it, as needed.
                 this.cPSTableAdapter.Fill(this.dsAmbar.CPS);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show(this, Sabitler.hataBaglanti, "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, string.Format(Sabitler.hataBaglanti, ex.Message), "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 this.Close();
             }
 
